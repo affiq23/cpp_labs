@@ -1,0 +1,10 @@
+Sandwiches	Ham sandwich	Classic ham sandwich	Available
+Sandwiches	Chicken salad sandwich	Chicken salad sandwich	Not available
+Sandwiches	Cheeseburger	Classic cheeseburger	Not available
+Salads	Caesar salad	Chunks of romaine heart lettuce dressed with lemon juice	Available
+Salads	Asian salad	Mixed greens with ginger dressing, sprinkled with sesame	Not available
+Beverages	Water	16oz bottled water	Available
+Beverages	Coca-Cola	16oz Coca-Cola	Not available
+Mexican food	Chicken tacos	Grilled chicken breast in freshly made tortillas	Not available
+Mexican food	Beef tacos	Ground beef in freshly made tortillas	Available
+Vegetarian	Avocado sandwich	Sliced avocado with fruity spread	Not available

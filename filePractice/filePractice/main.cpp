@@ -11,16 +11,15 @@ using namespace std;
 
 int main() {
     
-    ofstream inputFile;
-    inputFile.open("newFile.txt");
+    ofstream newFile;
+    newFile.open("newTextFile.txt");
     
-    cout << "printing to file" << endl;
+    if(!newFile.is_open()){
+        cout << "file is not open\n";
+    }
     
-    inputFile << "this is a new line" << endl;
-    inputFile << "now i want to see if it works again" << endl;
-    inputFile.close();
-    
-    cout << "done";
+    newFile << "new data\n";
+    newFile.close();
     return 0;
     
     

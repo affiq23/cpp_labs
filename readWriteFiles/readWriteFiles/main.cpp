@@ -7,15 +7,22 @@
 
 #include <iostream>
 #include <fstream>
+#include <string>
 using namespace std;
 
 int main() {
     
-    ofstream outStream;
-    outStream.open("test2.txt");
-    outStream << "writing to file" << endl;
-    cout << "new file";
-    outStream.close();
+    fstream outStream;
+    
+    outStream.open("test2.txt", ios::in);
+    
+    if(outStream.is_open()){
+        string line;
+        while(getline(outStream, line)){
+            cout << line << endl;
+        }
+        outStream.close();
+    }
     
     return 0;
 }

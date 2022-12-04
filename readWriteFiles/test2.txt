@@ -1,0 +1,5 @@
+writing to file
+this is second line
+adding some new text
+fourth line
+this is some more text

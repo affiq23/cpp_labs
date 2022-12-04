@@ -70,7 +70,7 @@ int main() {
         cout << responses << " could not be opened." << endl;
     }
     
-    
+    //able to read file data and pass into char arrays
     
     
    

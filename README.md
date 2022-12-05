@@ -1,3 +1,2 @@
 # cpp_labs
-C++ labs from CS1136 and CS1336 
-	first
+These labs are meant as a way for me to store a backup and let others view my progress.
